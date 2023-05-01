@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided
+# Install script for directory: C:/Users/Joey/Documents/Comp 559/A3/Stable Fluids
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Joey/Documents/Comp 559/A3/Stable Fluids/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

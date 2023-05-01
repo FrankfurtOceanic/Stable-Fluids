@@ -1,6 +1,6 @@
-^C:\USERS\JOEY\DOCUMENTS\COMP 559\A3\COMP559W23A3PROVIDED\BUILD\CMAKEFILES\4BBBFDA66BFAA5078213BC0A50C83912\GENERATE.STAMP.RULE
+^C:\USERS\JOEY\DOCUMENTS\COMP 559\A3\STABLE FLUIDS\BUILD\CMAKEFILES\19F37F7C5F1EFBD7CFCAEA6F12E1707F\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided" "-BC:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build/COMP559A3Fluid.sln"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Joey/Documents/Comp 559/A3/Stable Fluids" "-BC:/Users/Joey/Documents/Comp 559/A3/Stable Fluids/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Joey/Documents/Comp 559/A3/Stable Fluids/build/COMP559A3Fluid.sln"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

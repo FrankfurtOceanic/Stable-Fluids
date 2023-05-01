@@ -199,7 +199,7 @@ void diffuse(double a0[rows + 2][cols + 2], double a1[rows + 2][cols + 2], doubl
 	// Use a Gauss Seidel solve (or better, Conjugate Gradients).
 	// Use *iterations* as the number of iterations.
 	// Call setBnd to fix the boundary.
-	float a = dt * dx * nv * rows * cols;
+	float a = dt * nv / (dx * dx);
 	/*
 	for (int i = 1; i <= rows; i++) {
 		for (int j = 1; j <= cols; j++) {

@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\src\Buffer.cpp">
+    <ClCompile Include="C:\Users\Joey\Documents\Comp 559\A3\Stable Fluids\src\Buffer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\src\GridSolver.cpp">
+    <ClCompile Include="C:\Users\Joey\Documents\Comp 559\A3\Stable Fluids\src\GridSolver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\src\ShaderProgram.cpp">
+    <ClCompile Include="C:\Users\Joey\Documents\Comp 559\A3\Stable Fluids\src\ShaderProgram.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\src\fluid.cpp">
+    <ClCompile Include="C:\Users\Joey\Documents\Comp 559\A3\Stable Fluids\src\fluid.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3\imgui.cpp">
@@ -33,34 +33,34 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\src\RecordVideo.hpp">
+    <ClInclude Include="C:\Users\Joey\Documents\Comp 559\A3\Stable Fluids\src\RecordVideo.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\src\Buffer.h">
+    <ClInclude Include="C:\Users\Joey\Documents\Comp 559\A3\Stable Fluids\src\Buffer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\src\GridSolver.h">
+    <ClInclude Include="C:\Users\Joey\Documents\Comp 559\A3\Stable Fluids\src\GridSolver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\src\ShaderProgram.h">
+    <ClInclude Include="C:\Users\Joey\Documents\Comp 559\A3\Stable Fluids\src\ShaderProgram.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\src\Vertex.h">
+    <ClInclude Include="C:\Users\Joey\Documents\Comp 559\A3\Stable Fluids\src\Vertex.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\src\stb_image_write.h">
+    <ClInclude Include="C:\Users\Joey\Documents\Comp 559\A3\Stable Fluids\src\stb_image_write.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Joey\Documents\Comp 559\A3\Stable Fluids\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{BB6FEF5A-EB20-3E4E-B3DB-63DB2D9F0592}</UniqueIdentifier>
+      <UniqueIdentifier>{A91E1CAB-A936-339F-8E60-8368029A15D4}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{69CD56F4-316D-37AA-BC80-E650D160A385}</UniqueIdentifier>
+      <UniqueIdentifier>{F72FBD97-10A8-3519-84A3-5610FE9844CF}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
