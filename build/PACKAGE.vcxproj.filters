@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\CMakeFiles\4bbbfda66bfaa5078213bc0a50c83912\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F3C55445-EAA3-306C-928C-AC7373BB660C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

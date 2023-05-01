@@ -1,0 +1,10 @@
+^C:\USERS\JOEY\DOCUMENTS\COMP 559\A3\COMP559W23A3PROVIDED\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided" "-BC:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build" --check-stamp-file "C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

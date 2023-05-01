@@ -1,0 +1,17 @@
+C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build/CMakeFiles/COMP559A3Fluid.dir
+C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build/CMakeFiles/PACKAGE.dir
+C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build/CMakeFiles/INSTALL.dir
+C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Joey/Documents/Comp 559/3rdparty/freetype-2.12.1/debug/CMakeFiles/freetype.dir
+C:/Users/Joey/Documents/Comp 559/3rdparty/freetype-2.12.1/debug/CMakeFiles/PACKAGE.dir
+C:/Users/Joey/Documents/Comp 559/3rdparty/freetype-2.12.1/debug/CMakeFiles/INSTALL.dir
+C:/Users/Joey/Documents/Comp 559/3rdparty/freetype-2.12.1/debug/CMakeFiles/ALL_BUILD.dir
+C:/Users/Joey/Documents/Comp 559/3rdparty/glfw-3.3.8/debug/CMakeFiles/uninstall.dir
+C:/Users/Joey/Documents/Comp 559/3rdparty/glfw-3.3.8/debug/CMakeFiles/PACKAGE.dir
+C:/Users/Joey/Documents/Comp 559/3rdparty/glfw-3.3.8/debug/CMakeFiles/INSTALL.dir
+C:/Users/Joey/Documents/Comp 559/3rdparty/glfw-3.3.8/debug/CMakeFiles/ALL_BUILD.dir
+C:/Users/Joey/Documents/Comp 559/3rdparty/glfw-3.3.8/debug/src/CMakeFiles/update_mappings.dir
+C:/Users/Joey/Documents/Comp 559/3rdparty/glfw-3.3.8/debug/src/CMakeFiles/glfw.dir
+C:/Users/Joey/Documents/Comp 559/3rdparty/glfw-3.3.8/debug/src/CMakeFiles/PACKAGE.dir
+C:/Users/Joey/Documents/Comp 559/3rdparty/glfw-3.3.8/debug/src/CMakeFiles/INSTALL.dir

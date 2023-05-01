@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{779AE404-734D-37CE-AC2E-BF2DB22FC92A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>COMP559A3Fluid</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">COMP559A3Fluid.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">COMP559A3Fluid</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">../resources</LocalDebuggerCommandArguments>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">COMP559A3Fluid.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">COMP559A3Fluid</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Release|x64'">../resources</LocalDebuggerCommandArguments>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">COMP559A3Fluid.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">COMP559A3Fluid</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">../resources</LocalDebuggerCommandArguments>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">COMP559A3Fluid.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">COMP559A3Fluid</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">../resources</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Comp 559\3rdparty\glm-0.9.9;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3\backends;C:\Users\Joey\Documents\Comp 559\3rdparty\eigen-3.4.0;C:\Users\Joey\Documents\Comp 559\3rdparty\rapidxml-1.13;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glfw-3.3.8\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glew-2.1.0\include;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\debug\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Comp 559\3rdparty\glm-0.9.9;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3\backends;C:\Users\Joey\Documents\Comp 559\3rdparty\eigen-3.4.0;C:\Users\Joey\Documents\Comp 559\3rdparty\rapidxml-1.13;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glfw-3.3.8\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glew-2.1.0\include;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\debug\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Comp 559\3rdparty\glm-0.9.9;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3\backends;C:\Users\Joey\Documents\Comp 559\3rdparty\eigen-3.4.0;C:\Users\Joey\Documents\Comp 559\3rdparty\rapidxml-1.13;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glfw-3.3.8\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glew-2.1.0\include;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\debug\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\debug\Debug\freetyped.lib;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\debug\Debug\freetyped.lib;C:\Users\Joey\Documents\Comp 559\3rdparty\glfw-3.3.8\debug\src\Debug\glfw3.lib;C:\Users\Joey\Documents\Comp 559\3rdparty\glew-2.1.0\lib\Release\x64\glew32s.lib;opengl32.lib;C:\Users\Joey\anaconda3\Library\lib\z.lib;C:\Users\Joey\anaconda3\Library\lib\bzip2.lib;C:\Users\Joey\anaconda3\Library\lib\libpng.lib;C:\Users\Joey\anaconda3\Library\lib\z.lib;C:\Users\Joey\anaconda3\Library\lib\bzip2.lib;C:\Users\Joey\anaconda3\Library\lib\libpng.lib;C:\Users\Joey\anaconda3\Library\lib\brotlidec.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build/Debug/COMP559A3Fluid.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build/Debug/COMP559A3Fluid.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Comp 559\3rdparty\glm-0.9.9;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3\backends;C:\Users\Joey\Documents\Comp 559\3rdparty\eigen-3.4.0;C:\Users\Joey\Documents\Comp 559\3rdparty\rapidxml-1.13;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glfw-3.3.8\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glew-2.1.0\include;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\debug\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Comp 559\3rdparty\glm-0.9.9;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3\backends;C:\Users\Joey\Documents\Comp 559\3rdparty\eigen-3.4.0;C:\Users\Joey\Documents\Comp 559\3rdparty\rapidxml-1.13;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glfw-3.3.8\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glew-2.1.0\include;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\debug\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Comp 559\3rdparty\glm-0.9.9;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3\backends;C:\Users\Joey\Documents\Comp 559\3rdparty\eigen-3.4.0;C:\Users\Joey\Documents\Comp 559\3rdparty\rapidxml-1.13;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glfw-3.3.8\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glew-2.1.0\include;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\debug\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\debug\Release\freetype.lib;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\debug\Debug\freetyped.lib;C:\Users\Joey\Documents\Comp 559\3rdparty\glfw-3.3.8\debug\src\Release\glfw3.lib;C:\Users\Joey\Documents\Comp 559\3rdparty\glew-2.1.0\lib\Release\x64\glew32s.lib;opengl32.lib;C:\Users\Joey\anaconda3\Library\lib\z.lib;C:\Users\Joey\anaconda3\Library\lib\bzip2.lib;C:\Users\Joey\anaconda3\Library\lib\libpng.lib;C:\Users\Joey\anaconda3\Library\lib\z.lib;C:\Users\Joey\anaconda3\Library\lib\bzip2.lib;C:\Users\Joey\anaconda3\Library\lib\libpng.lib;C:\Users\Joey\anaconda3\Library\lib\brotlidec.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build/Release/COMP559A3Fluid.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build/Release/COMP559A3Fluid.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Comp 559\3rdparty\glm-0.9.9;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3\backends;C:\Users\Joey\Documents\Comp 559\3rdparty\eigen-3.4.0;C:\Users\Joey\Documents\Comp 559\3rdparty\rapidxml-1.13;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glfw-3.3.8\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glew-2.1.0\include;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\debug\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Comp 559\3rdparty\glm-0.9.9;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3\backends;C:\Users\Joey\Documents\Comp 559\3rdparty\eigen-3.4.0;C:\Users\Joey\Documents\Comp 559\3rdparty\rapidxml-1.13;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glfw-3.3.8\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glew-2.1.0\include;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\debug\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Comp 559\3rdparty\glm-0.9.9;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3\backends;C:\Users\Joey\Documents\Comp 559\3rdparty\eigen-3.4.0;C:\Users\Joey\Documents\Comp 559\3rdparty\rapidxml-1.13;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glfw-3.3.8\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glew-2.1.0\include;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\debug\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\debug\MinSizeRel\freetype.lib;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\debug\Debug\freetyped.lib;C:\Users\Joey\Documents\Comp 559\3rdparty\glfw-3.3.8\debug\src\MinSizeRel\glfw3.lib;C:\Users\Joey\Documents\Comp 559\3rdparty\glew-2.1.0\lib\Release\x64\glew32s.lib;opengl32.lib;C:\Users\Joey\anaconda3\Library\lib\z.lib;C:\Users\Joey\anaconda3\Library\lib\bzip2.lib;C:\Users\Joey\anaconda3\Library\lib\libpng.lib;C:\Users\Joey\anaconda3\Library\lib\z.lib;C:\Users\Joey\anaconda3\Library\lib\bzip2.lib;C:\Users\Joey\anaconda3\Library\lib\libpng.lib;C:\Users\Joey\anaconda3\Library\lib\brotlidec.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build/MinSizeRel/COMP559A3Fluid.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build/MinSizeRel/COMP559A3Fluid.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Comp 559\3rdparty\glm-0.9.9;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3\backends;C:\Users\Joey\Documents\Comp 559\3rdparty\eigen-3.4.0;C:\Users\Joey\Documents\Comp 559\3rdparty\rapidxml-1.13;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glfw-3.3.8\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glew-2.1.0\include;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\debug\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Comp 559\3rdparty\glm-0.9.9;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3\backends;C:\Users\Joey\Documents\Comp 559\3rdparty\eigen-3.4.0;C:\Users\Joey\Documents\Comp 559\3rdparty\rapidxml-1.13;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glfw-3.3.8\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glew-2.1.0\include;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\debug\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Joey\Documents\Comp 559\3rdparty\glm-0.9.9;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3;C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3\backends;C:\Users\Joey\Documents\Comp 559\3rdparty\eigen-3.4.0;C:\Users\Joey\Documents\Comp 559\3rdparty\rapidxml-1.13;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glfw-3.3.8\include;C:\Users\Joey\Documents\Comp 559\3rdparty\glew-2.1.0\include;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\debug\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\debug\RelWithDebInfo\freetype.lib;C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\debug\Debug\freetyped.lib;C:\Users\Joey\Documents\Comp 559\3rdparty\glfw-3.3.8\debug\src\RelWithDebInfo\glfw3.lib;C:\Users\Joey\Documents\Comp 559\3rdparty\glew-2.1.0\lib\Release\x64\glew32s.lib;opengl32.lib;C:\Users\Joey\anaconda3\Library\lib\z.lib;C:\Users\Joey\anaconda3\Library\lib\bzip2.lib;C:\Users\Joey\anaconda3\Library\lib\libpng.lib;C:\Users\Joey\anaconda3\Library\lib\z.lib;C:\Users\Joey\anaconda3\Library\lib\bzip2.lib;C:\Users\Joey\anaconda3\Library\lib\libpng.lib;C:\Users\Joey\anaconda3\Library\lib\brotlidec.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build/RelWithDebInfo/COMP559A3Fluid.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build/RelWithDebInfo/COMP559A3Fluid.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided" "-BC:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build" --check-stamp-file "C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\CMakeFiles\3.25.1\CMakeCCompiler.cmake;C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\CMakeFiles\3.25.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided" "-BC:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build" --check-stamp-file "C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\CMakeFiles\3.25.1\CMakeCCompiler.cmake;C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\CMakeFiles\3.25.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided" "-BC:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build" --check-stamp-file "C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\CMakeFiles\3.25.1\CMakeCCompiler.cmake;C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\CMakeFiles\3.25.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided" "-BC:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build" --check-stamp-file "C:/Users/Joey/Documents/Comp 559/A3/COMP559W23A3Provided/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\CMakeFiles\3.25.1\CMakeCCompiler.cmake;C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\CMakeFiles\3.25.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\src\Buffer.cpp" />
+    <ClCompile Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\src\GridSolver.cpp" />
+    <ClInclude Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\src\RecordVideo.hpp" />
+    <ClCompile Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\src\ShaderProgram.cpp" />
+    <ClCompile Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\src\fluid.cpp" />
+    <ClInclude Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\src\Buffer.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\src\GridSolver.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\src\ShaderProgram.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\src\Vertex.h" />
+    <ClInclude Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\src\stb_image_write.h" />
+    <ClCompile Include="C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3\imgui.cpp" />
+    <ClCompile Include="C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3\imgui_draw.cpp" />
+    <ClCompile Include="C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3\imgui_tables.cpp" />
+    <ClCompile Include="C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3\imgui_widgets.cpp" />
+    <ClCompile Include="C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3\backends\imgui_impl_glfw.cpp" />
+    <ClCompile Include="C:\Users\Joey\Documents\Comp 559\3rdparty\imgui-1.89.3\backends\imgui_impl_opengl3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Joey\Documents\Comp 559\A3\COMP559W23A3Provided\build\ZERO_CHECK.vcxproj">
+      <Project>{20E4D054-1A38-3A3C-8B0C-B352D24FA72B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Joey\Documents\Comp 559\3rdparty\freetype-2.12.1\debug\freetype.vcxproj">
+      <Project>{5DD08AC3-649C-3FF9-B325-B884DEB71E07}</Project>
+      <Name>freetype</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Joey\Documents\Comp 559\3rdparty\glfw-3.3.8\debug\src\glfw.vcxproj">
+      <Project>{27425DE8-984C-3C20-A8B1-F356E4626EB2}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
