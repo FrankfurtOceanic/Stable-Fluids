@@ -2,7 +2,7 @@
  
 This is a C++ implementation of Stam's Stable fluids. The paper's methods were extended to include a buoyancy step. 
 * Functionality: a 2d Eulerian fluid based on Stable Fluids (2003), Stam et al.
-* Programmed methods for adding density sources, diffusion, advection and projections to maintain the incompressibility constraint. Additionally, buoyancy we added to emulate the effect of warm air rising.
+* Programmed methods for adding density sources, diffusion, advection and projections to maintain the incompressibility constraint. Additionally, buoyancy was added to emulate the effect of warm air rising.
 * The system works on a scalar level to move densities/temperatures within the system as well as modeling the effects on velocity.
 
 
